@@ -38,7 +38,7 @@ public class TestGreeter {
   
     @Test
   public void greetShouldIncludeDingDong() {
-    String someone = "World";
+    String someone = "W";
 
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
